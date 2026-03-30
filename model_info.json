@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "totalProviders": 2,
+    "generatedAt": "2026-03-30T19:15:06.666Z",
+    "yepiaVersionRequired": "0.1.0"
+  },
+  "providers": {
+    "ali-cn": {
+      "name": "Alibaba(China)",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1/",
+      "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
+      "models": [
+        {
+          "id": "qwen3.5-plus",
+          "name": "qwen3.5 plus",
+          "family": "qwen3.5",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 65536,
+          "inputPrice": 0.8,
+          "outputPrice": 4.8,
+          "supportsImages": true,
+          "supportsReasoning": true
+        },
+        {
+          "id": "qwen3.5-flash",
+          "name": "qwen3.5 flash",
+          "family": "qwen3.5",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 65536,
+          "inputPrice": 0.2,
+          "outputPrice": 2.0,
+          "supportsImages": true,
+          "supportsReasoning": true
+        },
+        {
+          "id": "qwen3-max",
+          "name": "Qwen3 Max",
+          "family": "qwen3",
+          "contextWindow": 262144,
+          "maxOutputTokens": 65536,
+          "inputPrice": 2.5,
+          "outputPrice": 10,
+          "supportsImages": false,
+          "supportsReasoning": false
+        },
+        {
+          "id": "qwen3-coder-plus",
+          "name": "Qwen3 coder plus",
+          "family": "qwen3",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 65536,
+          "inputPrice": 4,
+          "outputPrice": 16,
+          "supportsImages": false,
+          "supportsReasoning": false
+        },
+        {
+          "id": "deepseek-r1",
+          "name": "DeepSeek R1",
+          "family": "deepseek-r1",
+          "contextWindow": 131072,
+          "maxOutputTokens": 16384,
+          "inputPrice": 4,
+          "outputPrice": 16,
+          "supportsImages": false,
+          "supportsReasoning": true
+        },
+        {
+          "id": "deepseek-v3",
+          "name": "DeepSeek V3",
+          "family": "deepseek-v3",
+          "contextWindow": 65536,
+          "maxOutputTokens": 8192,
+          "inputPrice": 2,
+          "outputPrice": 8,
+          "supportsImages": false,
+          "supportsReasoning": false
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "Moonshot Kimi K2.5",
+          "family": "Kimi",
+          "contextWindow": 262144,
+          "maxOutputTokens": 16384,
+          "inputPrice": 4,
+          "outputPrice": 21,
+          "supportsImages": false,
+          "supportsReasoning": false
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "family": "Zhipu",
+          "contextWindow": 202752,
+          "maxOutputTokens": 16384,
+          "inputPrice": 4,
+          "outputPrice": 18,
+          "supportsImages": false,
+          "supportsReasoning": false
+        },
+        {
+          "id": "MiniMax-M2.5",
+          "name": "MiniMax M2.5",
+          "family": "MiniMax",
+          "contextWindow": 204800,
+          "maxOutputTokens": 131072,
+          "inputPrice": 2.1,
+          "outputPrice": 8.4,
+          "supportsImages": false,
+          "supportsReasoning": false
+        }
+      ]
+    },
+    "zhipu-cn": {
+      "name": "Zhipu(China)",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4/",
+      "doc": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+      "models": [
+        {
+          "id": "glm-5",
+          "name": "glm5",
+          "family": "Zhipu",
+          "contextWindow": 202752,
+          "maxOutputTokens": 131072,
+          "inputPrice": 4,
+          "outputPrice": 18,
+          "supportsImages": false,
+          "supportsReasoning": false
+        },
+        {
+          "id": "glm-4.7",
+          "name": "glm4.7",
+          "family": "Zhipu",
+          "contextWindow": 202752,
+          "maxOutputTokens": 131072,
+          "inputPrice": 2,
+          "outputPrice": 8,
+          "supportsImages": false,
+          "supportsReasoning": false
+        }
+      ]
+    }
+  }
+}
